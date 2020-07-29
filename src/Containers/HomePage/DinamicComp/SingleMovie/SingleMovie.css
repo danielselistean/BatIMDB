@@ -1,0 +1,48 @@
+.DinamicSingleMovie {
+  display: flex;
+  align-items: flex-start;
+  height: auto;
+  width: 90%; 
+  flex-direction: row;
+  margin-top: 20px;
+  margin-right: 1px;
+  flex: 1;
+}
+.DinamicSingleMovie a{
+  cursor: pointer;
+}
+
+.DinamicSingleMovieImg {
+  /* width: 100%; */
+  width: 90px;
+  height: auto;
+  flex: 1;
+}
+
+.DinamicInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.DinamicInfo p {
+  max-width: 300px;
+  margin: unset;
+  color: white;
+}
+.DinamicInfo p:nth-child(1) {
+  color: rgb(255, 255, 255);
+  text-align: start;
+  font-size: 14px;
+}
+.DinamicInfo p:nth-child(2) {
+  font-weight: bolder;
+  color: yellow;
+  text-align: start;
+  font-size: 18px;
+  background-image: image();
+}
+.DinamicInfo p:nth-child(3) {
+  margin-bottom: 4px;
+}

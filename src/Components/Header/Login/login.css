@@ -1,0 +1,90 @@
+.log-form{
+    position:absolute;
+    border-radius: 0.5em;
+    z-index :1;
+    padding:1.5em;
+    margin-top:1.5em;
+    background-color:#091e32;
+    align-self: flex-end;
+    display:flex;
+    flex-direction: column ;
+}
+.log-field {
+    padding:0.5em;
+    margin-bottom: 1em;
+    outline: 0;
+    border:0;
+    background-color:rgb(253, 253, 252);
+    border-radius: 0.5em;
+}
+.submitBtn {
+    padding:0.5em;
+    background-color: #fdff00;
+    border:none;
+    border-radius: 0.5em;
+}
+.cancelBtn {
+    margin-top:0.7em;
+    padding:0.5em;
+    background-color:#505c7c;
+    border:none;
+    border-radius: 0.5em;
+}
+.loginError{
+    margin-top: 0.5em;
+    color: #d6d4d0
+}
+p {
+    margin-top: 0.5em;
+}
+.forgotPass,
+.reReg {
+    align-items: flex-end;
+    padding-top: 0.5em;
+    background-color: #091e32;
+    border:none;
+    outline:none;
+    font-size: 1em;
+    text-decoration: underline;
+    color:#6b7ba7;
+}
+.reReg {
+    color:#fdff00;
+    padding-right:0.3em;
+}
+
+@media only screen 
+    and (min-width:100px) 
+    and (max-width:599px){
+        .log-form{
+            position:absolute;
+            left:0;
+            width:100%;
+            margin:0 auto;
+            border-radius: 0.5em;
+            z-index :1;
+            padding:2.5em;
+            margin-top:0.7em;
+            background-color:#091e32;
+            align-self: flex-end;
+            display:flex;
+            flex-direction: column ;
+        } 
+        .submitBtn {
+            width:40%;
+            align-self: flex-end;
+            padding:0.5em;
+            background-color: #fdff00;
+            border:none;
+            border-radius: 0.5em;
+        }
+        .cancelBtn {
+            width:40%;
+            align-self: flex-end;
+            margin-top:0.7em;
+            padding:0.5em;
+            background-color:#505c7c;
+            border:none;
+            border-radius: 0.5em;
+        }
+    }

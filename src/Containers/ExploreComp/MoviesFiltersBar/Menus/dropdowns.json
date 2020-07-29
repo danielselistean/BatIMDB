@@ -1,0 +1,84 @@
+[{
+        "dropdownName": "Genre",
+        "dropdownOn": false,
+        "filters": [{
+                "filterName": "Action",
+                "filterOn": false
+            },
+            {
+                "filterName": "Drama",
+                "filterOn": false
+            },
+            {
+                "filterName": "Comedy",
+                "filterOn": false
+            },
+            {
+                "filterName": "Horror",
+                "filterOn": false
+            },
+            {
+                "filterName": "Fantasy",
+                "filterOn": false
+            },
+            {
+                "filterName": "Crime",
+                "filterOn": false
+            }
+        ]
+    },
+
+    {
+        "dropdownName": "Ratings",
+        "dropdownOn": false,
+        "filters": [{
+            "filterName": "imdb",
+            "filterOn": false,
+            "minRating": "3",
+            "maxRating": "10",
+            "step": "0.1"
+        }]
+    },
+
+    {
+        "dropdownName": "Year",
+        "dropdownOn": false,
+        "filters": [{
+                "filterName": "1990-2000",
+                "filterOn": false,
+                "minYear": "1990",
+                "maxYear": "2000"
+            },
+            {
+                "filterName": "2000-2010",
+                "filterOn": false,
+                "minYear": "2000",
+                "maxYear": "2010"
+            },
+            {
+                "filterName": "2010-2020",
+                "filterOn": false,
+                "minYear": "2010",
+                "maxYear": "2020"
+            }
+        ]
+    },
+
+    {
+        "dropdownName": "Language",
+        "dropdownOn": false,
+        "filters": [{
+                "filterName": "Romanian",
+                "filterOn": false
+            },
+            {
+                "filterName": "English",
+                "filterOn": false
+            },
+            {
+                "filterName": "French",
+                "filterOn": false
+            }
+        ]
+    }
+]

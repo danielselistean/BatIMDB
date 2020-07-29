@@ -1,0 +1,197 @@
+.header {
+  width:100%;
+  background-color:#091e32;
+  /* background-color: #0e1b27; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+/* .top{
+  background-image: url('../Images/top.png');
+  width:100%;
+  height:0.3em; 
+} */
+
+.navBar {
+  width:90%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  color: cornsilk;
+  padding: 15px 0px;
+}
+
+.logo {
+  width: 3em;
+  height: auto;
+  cursor: pointer;
+  padding-bottom: 2px;
+}
+.exploreBtn,
+.enabledAdd,
+.disabledAdd,
+.loginBtn,
+.registerBtn,
+.helloBtn,
+.logOutBtn{
+  background-color:#091e32;
+  border:none;
+  outline:none;
+  color:#fdff00;
+  font-family:'Ubuntu', sans-serif;
+  font-size: large;
+  cursor: pointer;
+}
+.navBar>button:hover,
+.navBar>div>button:hover{
+  color:#cfcf1b;
+  transition: color .4s;
+}
+.disabledAdd {
+  color: #505c7c;
+  cursor: pointer;
+}
+.loginBtn {
+  margin-left:5em;
+}
+.logOutBtn{
+  position:absolute;
+  border-radius: 0.5em;
+  z-index :1;
+  padding:1em;
+  margin-top:1.5em;
+  background-color:#091e32;
+  color: #505c7c;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.logOut{
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.searchBar > svg {
+  padding-right: 2px;
+}
+.searchBar{
+  margin-block-end: 0.5em;
+  margin-block-start: 0.5em;
+}
+.search-input-container {
+  position: relative; 
+}
+.search-input-container .fa-w-16 {
+  position: absolute;
+  color: grey;
+  left: 90%;
+  top: 10%;
+  font-size: 1.2rem;
+}
+
+.searchInput {
+  width: 20em;
+  border-color: #dcdcdc;
+  border-style: solid;
+  padding: 4px 20px;
+  font-size: 16px;
+  border-width: 2px;
+  border-radius: 5px;
+  background-color: #ededed;
+  text-shadow: 0px 0px 0px rgba(42, 42, 42, 0.75);
+  box-shadow: 2px 1px 7px 0px rgba(42, 42, 42, 0.4);
+  margin-left: 3px;
+  margin-top: 2px;
+}
+
+.searchInput :focus {
+  outline: none;
+}
+
+.searchBtn {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+  background-color: #ededed;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #777777;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  margin-left: 5px;
+}
+.searchBtn:hover {
+  background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+  background-color: #dfdfdf;
+}
+.searchBtn:active {
+  position: relative;
+  top: 1px;
+}
+
+.mood {
+  width: 1.5em;
+}
+/* for phone samsung S5 */
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 767px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+  .navBar {
+    width:94%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: auto;
+    color: cornsilk;
+    padding: 0.1em 0px;
+    margin-bottom: 0.2em;
+  }
+  .logo {
+    width: 2.5em;
+    height: auto;
+    cursor: pointer;
+    margin-bottom: 0.2em;
+  }
+  .searchInput {
+    width: 21.3em;
+    margin-left: 0;
+  }
+  .mood {
+    width: 1.5em;
+    display: flex;
+  }
+  
+}
+/* ----for tablet---- */
+@media 
+  (min-device-width: 768px) 
+  and (max-device-width: 1280px) {
+  .navBar {
+    width: 85%;
+    margin: 0.2em auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: auto;
+    color: cornsilk;
+    padding: 0.1em 0px;
+    margin-bottom: 0.2em;
+  }
+  .loginBtn {
+    margin-left:0.4em;
+  }
+}

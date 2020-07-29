@@ -1,0 +1,73 @@
+.reg-form{
+    position:absolute;
+    border-radius: 0.5em;
+    z-index :1;
+    padding:1.5em;
+    margin-top:1.5em;
+    background-color:#091e32;
+    display:flex;
+    flex-direction: column ;
+}
+.log-field {
+    padding:0.5em;
+    margin-bottom: 1em;
+    outline: 0;
+    border:0;
+    background-color:rgb(253, 253, 252);
+    border-radius: 0.5em;
+}
+.submitBtn {
+    padding:0.5em;
+    background-color: gold;
+    border:none;
+    border-radius: 0.5em;
+}
+.cancelBtn {
+    margin-top:0.5em;
+    padding:0.5em;
+    background-color:#505c7c;
+    border:none;
+    border-radius: 0.5em;
+}
+.registerError{
+    margin-top: 0.5em;
+    color: #d6d4d0
+}
+/* ----for tablet---- */
+@media 
+  (min-device-width: 768px) 
+  and (max-device-width: 1280px) {
+    .reg-form{
+        margin-left: -5em;
+    }
+}
+
+/* for phone samsung S5 */
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .reg-form{
+        margin-left: 0.2em;
+        margin-top: 0.3em;
+    }
+}
+@media only screen 
+    and (min-width:100px) 
+    and (max-width:599px){
+        .reg-form{
+            position:absolute;
+            left:0;
+            width:100%;
+            margin:0 auto;
+            border-radius: 0.5em;
+            z-index :1;
+            padding:2.5em;
+            margin-top:0.7em;
+            background-color:#091e32;
+            align-self: flex-end;
+            display:flex;
+            flex-direction: column ;
+        } 
+    }

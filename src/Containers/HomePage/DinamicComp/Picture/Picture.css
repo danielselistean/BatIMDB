@@ -1,0 +1,21 @@
+.Picture img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  padding: 5px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  border-radius: 22px;
+}
+.Picture {
+  width: 100%;
+  max-width: 600px;
+  height: 600px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.Picture a {
+  cursor: pointer;
+}
+
+

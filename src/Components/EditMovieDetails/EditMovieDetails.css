@@ -1,0 +1,130 @@
+/* .editMovieDiv{
+    margin-top: 80px;
+    color: whitesmoke;
+}
+.movieDetails-container{
+    width: 60%;
+    height: 100%;
+    background-color: #2E2B2B;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.movieDetailsImg{
+   display: flex;
+   flex-basis: 1;
+}
+.movieDetailsInfo{
+    flex-basis: 2;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.detailsImg{
+   width: 100%;
+
+}
+
+p{
+    color: white;
+} */
+/* .editMovie{
+    padding: 1%;
+    border: none;
+    background-color: yellow;
+} */
+
+
+
+.editForm{
+    margin-top: 80px;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.editDetailsInputsDiv{
+    display:flex;
+    flex-flow: column;
+    width: 80%;
+    justify-content: center;
+}
+
+.editField{
+    width: 100%;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: center;
+    margin:0.5em 0;
+}
+.editInput{
+    display: flex;  
+    margin: auto 0;
+    padding:0.5em;
+    outline:none;
+    border: none;
+    border-radius: 0.7em;   
+    font-size: 1em;
+    width: 45em;
+    font-family:'Ubuntu', sans-serif;
+}
+.editLabel{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-direction: row;
+    margin: auto 0;
+    width: 10em;
+    font-family:'Ubuntu', sans-serif;
+    font-size: large;
+    margin-right: 2em;
+    text-align: end;
+}
+.btnsDiv{   
+    display:flex;
+    flex-flow: row wrap;  
+    justify-content: center;
+    width: 100%;
+}
+.btn{
+    display: flex;
+    text-align: right;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    border: none;
+    outline:none;
+    margin: auto 0;
+    padding: 0.5em 1em;
+    background-color: inherit;
+    cursor: pointer;
+}
+.btn:hover,
+.btn:active {
+    background-color:rgb(106, 144, 165);
+    border-radius: 1em;
+}
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .editForm{
+        font-size:0.8em;
+    }
+    .editLabel{
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-end;
+        flex-direction: row;
+        margin: auto 0;
+        width: 10em;
+        font-family:'Ubuntu', sans-serif;
+        font-size: large;
+        margin-right: 1em;
+        text-align: justify;
+    }
+  }

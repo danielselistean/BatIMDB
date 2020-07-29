@@ -1,0 +1,242 @@
+.addFormContainer{
+    margin-top:4em;
+    width:100%;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: flex-start;
+    
+}
+.addForm{
+    margin-left: 3em;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.addPoster{
+    min-width:30%;
+    margin-left:0;
+    display:flex;
+    flex-flow:column wrap;
+    align-items: center;
+}
+.addPoster label{
+    padding-top: 3em;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+.addPoster input{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+.imgFrames{
+    width:12em;
+    height:4em;
+    background-image: url('../Images/fakePoster.png');
+    background-position: center;
+}
+.fieldWrapper{
+    width: 18em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:1em;
+    margin-left: 1em;
+}
+.inputLabel{
+    color:white;
+    cursor: pointer;
+}
+.addField{
+    padding:0.5em;
+    outline:none;
+    border: none;
+    border-radius: 0.7em;
+    align-self: flex-end;
+    font-size: 0.9em;
+}
+.btnsWrapper{
+    margin-top:2em;
+    margin-left: 30%;
+    align-self: flex-end;
+}
+.Btn{
+    margin-right: 1em;
+    background-color: #282e3c;
+    color: #fdff00;
+    padding:1em;
+    border: none;
+    outline:none;
+    border-radius: 0.7em;
+    font-size: 1.1em;
+    font-family: 'Ubuntu',sans-serif;
+}
+.dark{
+    background-color: #282e3c;
+    /* background-color: #505c7c; */
+    color: white;
+}
+.light {
+    background-color: rgb(234, 244, 250);
+    color: #282e3c;
+}
+.pvw{
+    width: 45%;
+    padding-left: 1em;
+    border-left: 0.01px solid #505c7c;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.pvw img{
+    width: 12em;
+    /* background-image: url('https://i.pinimg.com/originals/31/d6/fb/31d6fb7595b44e4b649aec2ce079e68a.jpg'); */
+}
+.pvwDetails{
+    margin-left: 1.3em;
+    width: 60%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1em;
+}
+.pvwDetails p{
+    margin-bottom: 0.6em;
+}
+.pvwLine span{
+    color:#fdff00;
+    padding-right: 0.1em;
+}
+.light span{
+    color: #091e32;
+    font-weight:555;
+}
+.dark button {
+    color:#fdff00;
+}
+.light label {
+    font-weight: 600;
+}
+.error{
+    color:red;
+    padding:1em;
+    margin-bottom: 3em;
+}
+h3{
+    padding:0.3em 1em;
+}
+.light h3{
+    color:red;
+}
+.dark h3{
+    color:#fdff00;
+}
+/* @media only screen 
+    and (min-width:769px) {
+        .pvw{
+            width: 45%;
+        
+            /* display:flex;
+            flex-direction: row;
+            align-items: flex-start; 
+        }
+    } */
+@media only screen 
+    and (min-width:600px) 
+    and (max-width:1400px) {
+        .addFormContainer{
+            margin-top:4em;
+            width:100%;
+            display:flex;
+            flex-flow:column wrap;
+            justify-content: flex-start;
+        }
+        .addForm{
+            width:100%;
+        }
+        .addPoster{
+            min-width:25%;
+        }
+        
+        .pvw{
+            width: 100%;
+            margin-top: 2em;
+            margin-left:3em;
+            padding-left:2%;
+            border:none;
+        }
+        .pvw img{
+            width:20%;
+        }
+        .pvwDetails{
+            padding-left:2%;
+        }
+    }
+    @media only screen 
+    and (min-width:100px) 
+    and (max-width:599px) {
+        .addFormContainer{
+            margin-top:6em;
+            margin-left:1em;
+            width:100%;
+            display:flex;
+            flex-flow:column wrap;
+            justify-content: flex-start;
+        }
+        .addForm{
+            width:100%;
+            margin-left:1em;
+            flex-direction:column;
+            align-content: flex-start;
+        }
+        .addPoster{
+            width:85%;
+            /* margin:0 auto; */
+            /* flex-direction:row; */
+            margin-bottom:2em;
+        }
+        .imgFrames{
+            width:100%;
+            height:0.3em;
+        }
+        .addPoster label{
+            padding-top: 0.8em;
+            margin-bottom: 0.8em;
+            cursor: pointer;
+        }
+        .addPoster input{
+            /* width: 70%; */
+            align-self: center;
+            margin:0;
+            padding:0;
+            margin-bottom: 0.8em;
+        }
+        .fieldWrapper{
+            max-width:18em;
+            margin-left:0;
+            margin-bottom:0.5em;
+        }
+        .btnsWrapper{
+            margin-left:0;
+        }
+        .pvw{
+            width: 100%;
+            margin-top: 2em;
+            margin-left:0;
+            padding-left:2%;
+            border:none;
+            flex-direction: column;
+        }
+        .pvw img{
+            width:80%;
+            margin-left:5%;
+            
+        }
+        .pvwDetails{
+            padding-left:0;
+            margin-top:2em;
+            margin-left:0;
+        }
+    }
