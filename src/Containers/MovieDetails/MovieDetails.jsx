@@ -30,7 +30,7 @@ class MovieDetails extends React.Component {
     }
 
     getMovieDetails = () => {
-        Axios.get(`http://movies-app-siit.herokuapp.com/movies/${this.props.history.location.state.id}`)
+        Axios.get(`https://movies-app-siit.herokuapp.com/movies/${this.props.history.location.state.id}`)
             .then((response) => {
                 //console.log(response.data);
                 this.setState({ movieDetail: response.data })
