@@ -23,7 +23,7 @@ class MovieList extends Component {
     }
 
     getMoviesList = () => {
-        axios.get(`http://movies-app-siit.herokuapp.com/movies?Type=${this.props.type}&take=100`)
+        axios.get(`https://movies-app-siit.herokuapp.com/movies?Type=${this.props.type}&take=100`)
             .then((response) => {
                 // console.log(response.data.results)
                 let movies = this.addImage(response)

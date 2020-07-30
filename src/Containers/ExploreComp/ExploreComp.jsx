@@ -41,7 +41,7 @@ class ExploreComp extends React.Component {
         if (areFiltersOff) {
             this.setState({ moviesFound: true })
         }
-        Axios.get(`http://ancient-caverns-16784.herokuapp.com/movies?take=${this.state.moviesNumber}`)
+        Axios.get(`https://movies-app-siit.herokuapp.com/movies?take=${this.state.moviesNumber}`)
             .then((response) => {
                 let movies = this.addImage(response)
                 this.setState({ moviesList: movies })
@@ -62,7 +62,7 @@ class ExploreComp extends React.Component {
     filterMovies(query) {
         console.log(query)
         sessionStorage.setItem('queryString', query)
-        Axios.get(`http://ancient-caverns-16784.herokuapp.com/movies?${query}`)
+        Axios.get(`https://movies-app-siit.herokuapp.com/movies?${query}`)
             .then((response) => {
                 let movies = this.addImage(response)
                 this.setState({ moviesList: movies }, () => {
