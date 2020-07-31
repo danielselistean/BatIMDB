@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/BatIMDB/homepage/static/css/main.7d7672a2.chunk.css",
-    "main.js": "/BatIMDB/homepage/static/js/main.c5a9cb3b.chunk.js",
-    "main.js.map": "/BatIMDB/homepage/static/js/main.c5a9cb3b.chunk.js.map",
-    "runtime-main.js": "/BatIMDB/homepage/static/js/runtime-main.c02f8a1e.js",
-    "runtime-main.js.map": "/BatIMDB/homepage/static/js/runtime-main.c02f8a1e.js.map",
-    "static/css/2.df0ba7b0.chunk.css": "/BatIMDB/homepage/static/css/2.df0ba7b0.chunk.css",
-    "static/js/2.809a4cfb.chunk.js": "/BatIMDB/homepage/static/js/2.809a4cfb.chunk.js",
-    "static/js/2.809a4cfb.chunk.js.map": "/BatIMDB/homepage/static/js/2.809a4cfb.chunk.js.map",
-    "index.html": "/BatIMDB/homepage/index.html",
-    "precache-manifest.82ca1e729d30402c2f14ce3db86d6c3f.js": "/BatIMDB/homepage/precache-manifest.82ca1e729d30402c2f14ce3db86d6c3f.js",
-    "service-worker.js": "/BatIMDB/homepage/service-worker.js",
-    "static/css/2.df0ba7b0.chunk.css.map": "/BatIMDB/homepage/static/css/2.df0ba7b0.chunk.css.map",
-    "static/css/main.7d7672a2.chunk.css.map": "/BatIMDB/homepage/static/css/main.7d7672a2.chunk.css.map",
-    "static/js/2.809a4cfb.chunk.js.LICENSE.txt": "/BatIMDB/homepage/static/js/2.809a4cfb.chunk.js.LICENSE.txt",
-    "static/media/frameBlack1.png": "/BatIMDB/homepage/static/media/frameBlack1.acc98809.png",
-    "static/media/frameBlackLong.png": "/BatIMDB/homepage/static/media/frameBlackLong.1f5d2f8f.png",
-    "static/media/frameYellow.png": "/BatIMDB/homepage/static/media/frameYellow.15586deb.png",
-    "static/media/frameYellowLong.png": "/BatIMDB/homepage/static/media/frameYellowLong.558b1461.png",
-    "static/media/index.css": "/BatIMDB/homepage/static/media/roboto-latin-900-normal.bb1e4dc6.woff"
+    "main.css": "/BatIMDB/static/css/main.7d7672a2.chunk.css",
+    "main.js": "/BatIMDB/static/js/main.1e6278ed.chunk.js",
+    "main.js.map": "/BatIMDB/static/js/main.1e6278ed.chunk.js.map",
+    "runtime-main.js": "/BatIMDB/static/js/runtime-main.fcc7a9b6.js",
+    "runtime-main.js.map": "/BatIMDB/static/js/runtime-main.fcc7a9b6.js.map",
+    "static/css/2.764bea49.chunk.css": "/BatIMDB/static/css/2.764bea49.chunk.css",
+    "static/js/2.8674b171.chunk.js": "/BatIMDB/static/js/2.8674b171.chunk.js",
+    "static/js/2.8674b171.chunk.js.map": "/BatIMDB/static/js/2.8674b171.chunk.js.map",
+    "index.html": "/BatIMDB/index.html",
+    "precache-manifest.6591bc18f26df797adae055e51180ccf.js": "/BatIMDB/precache-manifest.6591bc18f26df797adae055e51180ccf.js",
+    "service-worker.js": "/BatIMDB/service-worker.js",
+    "static/css/2.764bea49.chunk.css.map": "/BatIMDB/static/css/2.764bea49.chunk.css.map",
+    "static/css/main.7d7672a2.chunk.css.map": "/BatIMDB/static/css/main.7d7672a2.chunk.css.map",
+    "static/js/2.8674b171.chunk.js.LICENSE.txt": "/BatIMDB/static/js/2.8674b171.chunk.js.LICENSE.txt",
+    "static/media/frameBlack1.png": "/BatIMDB/static/media/frameBlack1.acc98809.png",
+    "static/media/frameBlackLong.png": "/BatIMDB/static/media/frameBlackLong.1f5d2f8f.png",
+    "static/media/frameYellow.png": "/BatIMDB/static/media/frameYellow.15586deb.png",
+    "static/media/frameYellowLong.png": "/BatIMDB/static/media/frameYellowLong.558b1461.png",
+    "static/media/index.css": "/BatIMDB/static/media/roboto-latin-900-normal.bb1e4dc6.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.c02f8a1e.js",
-    "static/css/2.df0ba7b0.chunk.css",
-    "static/js/2.809a4cfb.chunk.js",
+    "static/js/runtime-main.fcc7a9b6.js",
+    "static/css/2.764bea49.chunk.css",
+    "static/js/2.8674b171.chunk.js",
     "static/css/main.7d7672a2.chunk.css",
-    "static/js/main.c5a9cb3b.chunk.js"
+    "static/js/main.1e6278ed.chunk.js"
   ]
 }
