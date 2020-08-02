@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "97eda18cd6ad03638c83575031521449",
+    "revision": "0b79c05cf130bdb56209c7c0af7de8e0",
     "url": "/BatIMDB/index.html"
   },
   {
-    "revision": "85860c6ac72ec53660fe",
+    "revision": "60d56481ef30fb0b1b0e",
     "url": "/BatIMDB/static/css/2.764bea49.chunk.css"
   },
   {
-    "revision": "34bd7406fd5952b6d0be",
+    "revision": "cb557139e47589e590fe",
     "url": "/BatIMDB/static/css/main.7d7672a2.chunk.css"
   },
   {
-    "revision": "85860c6ac72ec53660fe",
-    "url": "/BatIMDB/static/js/2.8674b171.chunk.js"
+    "revision": "60d56481ef30fb0b1b0e",
+    "url": "/BatIMDB/static/js/2.af66f9bf.chunk.js"
   },
   {
     "revision": "dc68fb75adadd48401d28550ac431619",
-    "url": "/BatIMDB/static/js/2.8674b171.chunk.js.LICENSE.txt"
+    "url": "/BatIMDB/static/js/2.af66f9bf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "34bd7406fd5952b6d0be",
-    "url": "/BatIMDB/static/js/main.1e6278ed.chunk.js"
+    "revision": "cb557139e47589e590fe",
+    "url": "/BatIMDB/static/js/main.7e6cc3d9.chunk.js"
   },
   {
     "revision": "d2b7f724e2634100b4f0",
